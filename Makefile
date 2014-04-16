@@ -1,5 +1,4 @@
 all: 
-	g++ connect_db.cpp -l sqlite3 -o connect_db
-	g++ create_tables_in_db.cpp -o create_tables_in_db -l sqlite3
+	g++ sqlite3_ex.cpp -o sqlite3_ex -l sqlite3
 clean: 
-	rm connect_db new.db create_tables_in_db
+	rm new.db sqlite3_ex
