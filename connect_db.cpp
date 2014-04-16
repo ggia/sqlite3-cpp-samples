@@ -13,7 +13,8 @@ int main(int argc, char* argv[]) {
    if (rc) {
       cerr << "Can't open database: " << sqlite3_errmsg(db) << endl;
       return 0;
-   }else{
+   }
+   else {
       cerr << "Opened new.db database successfully" << endl;
    }
 
